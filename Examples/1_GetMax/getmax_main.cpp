@@ -81,7 +81,8 @@ int main()
 
 	w = GetMax<double>(x, y, m);	//Line to uncomment
 	cout << "Maximim double is '" << w << '\'' << endl;
-
+	cout << "int x  ";
+	cout << "hallo";
 	//	What's the problem? How can you fix it so that w = 34.67?
 	//	Hint: There are two ways, can you think of both of them?
 	//	Think then see the answer below
@@ -96,5 +97,7 @@ int main()
 	
 	system("pause");
 	cin>>ch1;		//just to stop the program to see the output window	
+	cin >> ch1;
+
 	return 0;
 }
